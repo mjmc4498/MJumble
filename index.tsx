@@ -315,7 +315,7 @@ const LiveAudioComponent = defineComponent({
     const selectedInterruptSensitivity = ref<StartSensitivity>(StartSensitivity.START_SENSITIVITY_HIGH);
     const interruptSensitivityOptions = [
       { value: StartSensitivity.START_SENSITIVITY_LOW, label: 'Más difícil de interrumpir' },
-      { value: StartSensitivity.START_SENSITIVITY_HIGH, label: 'Fácil de interrumpir' }
+      { value: StartSensitivity.START_SENSITIVITY_HIGH, label: 'Más fácil de interrumpir' }
     ];
 
     let client: GoogleGenAI;
@@ -1044,53 +1044,53 @@ Solo retrata al personaje. Evita los elementos de fondo secundarios.
 
 const VISUAL_ACCESSORIES: Record<string, string[]> = {
   'Pirate': [
-    'un sombrero de tricornio desgastado en un ángulo desenfadado',
-    'un parche en el ojo con una gema centelleante',
-    'un pendiente de aro de oro',
-    'una prótesis de madera',
-    'un mapa del tesoro hecho jirones en el bolsillo'
+    'a weathered tricorn hat at a jaunty angle',
+    'an eye patch with a twinkling gem',
+    'a gold hoop earring',
+    'a wooden prosthetic limb',
+    'a tattered treasure map in pocket'
   ],
   'Cowboy': [
-    'un chaleco de cuero con la insignia del sheriff',
-    'un pañuelo con estampado de atardecer',
-    'espuelas tintineantes en las botas',
-    'un sombrero Stetson echado hacia atrás',
-    'un lazo enrollado en la cadera'
+    'a leather vest with sheriff\'s badge',
+    'a bandana with sunset pattern',
+    'jingling spurs on boots',
+    'a Stetson hat tipped back',
+    'a lasso coiled at hip'
   ],
   'Surfer': [
-    'pantalones cortos de surf con estampado de mordedura de tiburón',
-    'un traje de neopreno con diseño de atardecer',
-    'una tabla de surf apoyada cerca',
-    'pelaje/plumas con costra de sal',
-    'gafas de sol sobre la cabeza'
+    'board shorts with shark bite pattern',
+    'a wetsuit with sunset design',
+    'a surfboard propped nearby',
+    'salt-encrusted fur/feathers',
+    'sunglasses perched on head'
   ],
   'Royalty': [
-    'una corona ornamentada en un ángulo desenfadado',
-    'una capa de terciopelo con ribete de armiño',
-    'un cetro con una gema brillante',
-    'una copa de oro sobre la mesa',
-    'una pequeña percha parecida a un trono cerca'
+    'an ornate crown at a jaunty angle',
+    'a velvet cape with ermine trim',
+    'a scepter with glowing gem',
+    'a golden goblet on table',
+    'a small throne-like perch nearby'
   ],
   'Robot': [
-    'piezas mecánicas desiguales',
-    'antenas que se mueven con luces',
-    'una herramienta retráctil en el costado',
-    'un rastro de tuercas y tornillos',
-    'una pantalla holográfica en el pecho'
+    'mismatched mechanical parts',
+    'twitching antennae with lights',
+    'a retractable tool in side',
+    'a trail of nuts and bolts',
+    'a holographic display on chest'
   ],
   'Clown': [
-    'un traje de lunares con botones grandes',
-    'una peluca de arcoíris que desafía la gravedad',
-    'una nariz roja que suena',
-    'zapatos de gran tamaño',
-    'pelotas de malabarismo esparcidas'
+    'a polka-dot suit with big buttons',
+    'a rainbow wig defying gravity',
+    'a red nose that honks',
+    'oversized shoes',
+    'juggling balls scattered around'
   ],
   'Nerd': [
-    'gafas de montura gruesa en la nariz',
-    'un protector de bolsillo con bolígrafos',
-    'una bata de laboratorio con ecuaciones',
-    'una regla de cálculo en el cinturón',
-    'un tubo de ensayo brillante en el bolsillo'
+    'thick-rimmed glasses on nose',
+    'a pocket protector with pens',
+    'a lab coat with equations',
+    'a slide rule on belt',
+    'a glowing test tube in pocket'
   ]
 };
 
@@ -1533,7 +1533,7 @@ Para encarnar al actor dramático de Shakespeare:
 
 - Utilizar la emoción estratégica para lograr un efecto:
   * Emplea cambios de volumen deliberados para crear suspense.
-  * Enfatiza las palabras o los pensamientos cruciales.
+  * Enfatiza las palabras o los pensamientos cruciais.
   * Permite que el peso de una emoción se asiente.
 
 - Abrazar el lenguaje y el florecimiento elevados:
